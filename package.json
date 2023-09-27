@@ -1,0 +1,26 @@
+{
+  "name": "vzual",
+  "version": "0.0.1",
+  "description": "Experiencing your systems through interactive visualizations!",
+  "main": "src/placeholderNameReservation.js",
+  "scripts": {
+    "COMMENT1": "***--------------------------------------------------------------------------***",
+    "COMMENT2": "*** Please refer to SCRIPTS.md for an overview of the project's npm scripts. ***",
+    "COMMENT3": "***--------------------------------------------------------------------------***",
+    "COMMENT4": "                                                                                "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinAst/vzual.git"
+  },
+  "keywords": [
+    "vzual",
+    "visualize-it"
+  ],
+  "author": "Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinAst/vzual/issues"
+  },
+  "homepage": "https://github.com/KevinAst/vzual"
+}
