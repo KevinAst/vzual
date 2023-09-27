@@ -1,6 +1,6 @@
 {
   "name": "vzual",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Experiencing your systems through interactive visualizations!",
   "main": "src/placeholderNameReservation.js",
   "scripts": {
