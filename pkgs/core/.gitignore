@@ -1,0 +1,8 @@
+# git only retains the common "core" source from it's master (in pkgs/server) ... NOT this symbolic link
+# ... this is part of our project's KISS monorepo
+# AI: uncomment once we are using our  monorepo
+# /src/
+
+
+# bundled NPM distribution (generated via "npm run lib:build")
+dist/

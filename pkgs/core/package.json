@@ -2,11 +2,25 @@
   "name": "vzual",
   "version": "0.0.6",
   "description": "Experiencing your systems through interactive visualizations!",
+  "mainREM": "entry point for CommonJS (e.g. require)",
+  "main": "dist/vzual.umd.js",
+  "moduleREM": "entry point for ES modules (e.g. ES6 import)",
+  "module": "dist/vzual.mjs",
+  "filesREM": "resources to publish (via 'npm publish')",
+  "files": [
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "src"
+  ],
   "scripts": {
     "COMMENT1": "***--------------------------------------------------------------------------***",
     "COMMENT2": "*** Please refer to SCRIPTS.md for an overview of the project's npm scripts. ***",
     "COMMENT3": "***--------------------------------------------------------------------------***",
-    "COMMENT4": "                                                                                "
+    "COMMENT4": "                                                                                ",
+    "lib:buildREM": "bundle our library (in dist/)",
+    "lib:build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/KevinAst/vzual/issues"
   },
-  "homepage": "https://github.com/KevinAst/vzual"
+  "homepage": "https://github.com/KevinAst/vzual",
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
 }
