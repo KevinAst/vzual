@@ -1,9 +1,9 @@
 {
   "name": "vzual",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "Experiencing your systems through interactive visualizations!",
   "mainREM": "entry point for CommonJS (e.g. require)",
-  "main": "dist/vzual.umd.js",
+  "main": "dist/vzual.js",
   "moduleREM": "entry point for ES modules (e.g. ES6 import)",
   "module": "dist/vzual.mjs",
   "filesREM": "resources to publish (via 'npm publish')",
