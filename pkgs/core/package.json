@@ -19,6 +19,7 @@
     "COMMENT2": "*** Please refer to SCRIPTS.md for an overview of the project's npm scripts. ***",
     "COMMENT3": "***--------------------------------------------------------------------------***",
     "COMMENT4": "                                                                                ",
+    "publish:web": "gh-pages --dist tempDocsTest",
     "lib:buildREM": "bundle our library (in dist/)",
     "lib:build": "vite build"
   },
@@ -37,6 +38,7 @@
   },
   "homepage": "https://github.com/KevinAst/vzual",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "vite": "^4.4.9"
   }
 }
